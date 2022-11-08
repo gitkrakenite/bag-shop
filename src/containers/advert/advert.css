@@ -1,0 +1,154 @@
+.advertContainer {
+  padding: 50px 5em;
+  background-color: white;
+}
+
+.advertWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.advertWrapper .add__text {
+  flex: 0.4;
+  line-height: 1.8em;
+  text-align: end;
+}
+
+.advertWrapper .add__text1 {
+  flex: 0.4;
+  line-height: 1.8em;
+  text-align: start;
+}
+
+.add__sep {
+  flex: 0.2;
+}
+
+.advertWrapper .advert__image {
+  flex: 0.4;
+}
+
+.advertWrapper h4 {
+  font-size: 16px;
+  color: gray;
+  font-weight: 700;
+}
+
+.advertWrapper .add__text h2 {
+  font-size: 38px;
+  line-height: 1.1em;
+  margin-right: 5px;
+}
+
+.advertWrapper .add__text p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.advertWrapper span {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.advertWrapper .heroImageTestimony h6 {
+  font-weight: normal;
+  margin-top: 4px;
+}
+
+.advert__image {
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.advertWrapper .heroImageTestimony {
+  display: flex;
+  gap: 8px;
+  padding: 4px 12px;
+  background-color: white;
+  width: 160px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  margin-right: 20px;
+}
+
+.advert__image .maainImage img {
+  width: 100%;
+  max-width: 600px;
+  margin-left: 30px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.advertFooter {
+  margin-top: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.advertFooter .advertFooter__first {
+  flex: 0.4;
+}
+.advertFooter .advertFooter__Sec {
+  flex: 0.4;
+}
+
+.advertFooter .advertFooter__first h1 {
+  margin-bottom: 25px;
+}
+
+.advertFooter .advertFooter__first p {
+  margin-bottom: 25px;
+}
+
+.advertFooter .first__layer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advertFooter .advertFooter__Sec img {
+  width: 84%;
+  max-width: 600px;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+@media (max-width: 760px) {
+  .advertContainer {
+    padding: 50px 1em;
+    background-color: white;
+  }
+
+  .advertWrapper {
+    display: block;
+    margin-bottom: 28px;
+  }
+
+  .advertWrapper .add__text {
+    margin-bottom: 20px;
+  }
+
+  .advertWrapper .add__text1 {
+    margin-top: 18px;
+  }
+
+  .advertFooter {
+    display: block;
+  }
+
+  .advertFooter .first__layer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .advertFooter .advertFooter__Sec img {
+    width: 100%;
+  }
+}

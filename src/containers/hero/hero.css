@@ -1,0 +1,97 @@
+.heroWrapper {
+  display: flex;
+  align-items: center;
+
+  background-color: rgb(231, 229, 229);
+  padding: 50px 5em;
+}
+
+.heroWrapper .hero__text {
+  flex: 0.4;
+  line-height: 1.8em;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.heroWrapper .hero__sep {
+  flex: 0.3;
+}
+
+.heroWrapper .hero__image {
+  flex: 0.3;
+}
+
+.heroWrapper .hero__text h4 {
+  font-size: 20px;
+}
+
+.heroWrapper .hero__text h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 38px;
+}
+
+.heroWrapper .hero__text p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.heroWrapper .hero__text span {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.heroWrapper .heroImageTestimony h6 {
+  font-weight: normal;
+  margin-top: 4px;
+}
+
+.hero__image {
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.heroWrapper .heroImageTestimony {
+  display: flex;
+  gap: 8px;
+  padding: 4px 12px;
+  background-color: white;
+  width: 160px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  margin-right: 20px;
+}
+
+.heroWrapper .heroImageTestimony span {
+  color: orange;
+}
+
+.heroWrapper .heroImageTestimony img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero__image .maainImage img {
+  width: 70%;
+  margin-left: 30px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+@media (max-width: 760px) {
+  .heroWrapper {
+    display: block;
+    padding: 20px 1em;
+  }
+
+  .heroWrapper .hero__text {
+    margin-bottom: 20px;
+  }
+}
